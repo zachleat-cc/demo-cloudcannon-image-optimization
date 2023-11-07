@@ -9,7 +9,7 @@
 	padding: 0;
 }
 
-img {
+main img {
 	background-image: url(/demo-checkerboard.svg);
 	background-repeat: repeat;
 }
