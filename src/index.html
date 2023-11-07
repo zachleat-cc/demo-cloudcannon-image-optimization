@@ -5,10 +5,11 @@ metadata:
   cta:
     text: Watch the Video
     url: https://www.youtube.com/watch?v=Dsd831CSazA
+  helmet: >
+    <link rel="stylesheet" href="/style.css">
+    <script type="module" src="/browser-window.js"></script>
+    <script type="module" src="/demo-currentsrc.js"></script>
 ---
-<link rel="stylesheet" href="/style.css">
-<script type="module" src="/browser-window.js"></script>
-<script type="module" src="/demo-currentsrc.js"></script>
 {%- for image in collections.images %}
 {%- if image.data.image %}
 {%- unless image.data.disabled %}
