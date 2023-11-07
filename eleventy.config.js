@@ -1,5 +1,6 @@
 const path = require("node:path");
 const Image = require("@11ty/eleventy-img");
+const siteMountedConfig = require("./src/_includes/marketing-components/eleventySharedConfig.js");
 
 const IMAGE_OPTIONS = {
 	widths: [400, 800, 1600],
@@ -50,6 +51,9 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(require("./11ty/filesize-table.js"), {
 		imageOptions: IMAGE_OPTIONS
 	});
+
+	// Site Mounting
+	eleventyConfig.addPlugin(siteMountedConfig);
 
 	return {
 		dir: {

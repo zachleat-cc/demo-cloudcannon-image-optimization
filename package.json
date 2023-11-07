@@ -2,7 +2,8 @@
   "name": "demo-cloudcannon-image-optimization",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve"
+    "start": "npx @11ty/eleventy --serve",
+    "mount": "cp -R ../demo-cloudcannon-marketing-components/_includes/marketing-components src/_includes/"
   },
   "dependencies": {
     "@zachleat/browser-window": "^1.0.4"

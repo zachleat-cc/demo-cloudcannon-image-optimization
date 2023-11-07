@@ -2,3 +2,4 @@ _site
 node_modules
 package-lock.json
 source_images/
+src/_includes/marketing-components/
