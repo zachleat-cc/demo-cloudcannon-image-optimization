@@ -2,6 +2,11 @@
 	--theme-rhythm: 4em;
 	--demo-secondary-minor: #fff;
 }
+@media (prefers-color-scheme: dark) {
+	:root {
+		--demo-secondary-minor: #222;
+	}
+}
 
 /* Overrides */
 .demo-main {
