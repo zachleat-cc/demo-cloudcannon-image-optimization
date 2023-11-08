@@ -1,5 +1,5 @@
 /* On-off script to highlight active src */
-let images = document.querySelectorAll("img");
+let images = document.querySelectorAll("main img");
 
 function updateActiveSource(img) {
 	if(img.currentSrc) {
