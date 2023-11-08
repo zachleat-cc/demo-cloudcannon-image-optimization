@@ -5,6 +5,7 @@
 @media (prefers-color-scheme: dark) {
 	:root {
 		--demo-secondary-minor: #222;
+		--bw-shadow-hsl: var(--demo-shadow-hsl);
 	}
 }
 
