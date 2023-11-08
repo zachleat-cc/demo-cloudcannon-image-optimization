@@ -6,6 +6,9 @@ function updateActiveSource(img) {
 		let u = new URL(img.currentSrc);
 
 		let section = img.closest("section");
+		if(!section) {
+			return;
+		}
 
 		let previousRow = section.querySelector(`tr.currentsrc`);
 		previousRow?.classList.remove("currentsrc");
