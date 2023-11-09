@@ -16,7 +16,7 @@ metadata:
 {%- unless image.data.disabled %}
 <section>
   <resize-asaurus persist>
-    <browser-window shadow flush icon url="{{ image.data.attribution_url }}">
+    <browser-window flush icon url="{{ image.data.attribution_url }}">
       {%- assign sizes = "(min-width: 50em) 44.4375em, 89vw" %}
       {%- image image.data.image, image.data.alt_text, sizes, image.data.prefer_svg -%}
     </browser-window>
