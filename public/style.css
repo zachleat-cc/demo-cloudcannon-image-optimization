@@ -5,7 +5,6 @@
 @media (prefers-color-scheme: dark) {
 	:root {
 		--demo-secondary-minor: #222;
-		--bw-shadow-hsl: var(--demo-shadow-hsl);
 	}
 }
 
@@ -52,6 +51,11 @@ table {
 }
 tr.loadedsrc {
 	background-color: #eaeaea;
+}
+@media (prefers-color-scheme: dark) {
+	tr.loadedsrc {
+		background-color: #600000;
+	}
 }
 tr.currentsrc {
 	outline: 2px solid;
