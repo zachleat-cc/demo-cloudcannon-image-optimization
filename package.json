@@ -6,7 +6,8 @@
     "mount": "cp -R ../demo-cloudcannon-marketing-components/_includes/marketing-components src/_includes/"
   },
   "dependencies": {
-    "@zachleat/browser-window": "^1.0.9"
+    "@zachleat/browser-window": "^1.0.9",
+    "@zachleat/resizeasaurus": "^4.0.1"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",

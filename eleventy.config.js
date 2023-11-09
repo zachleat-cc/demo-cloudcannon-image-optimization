@@ -31,6 +31,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({
 		"./public/*": "/",
 		"./node_modules/@zachleat/browser-window/browser-window.js": "/browser-window.js",
+		"./node_modules/@zachleat/resizeasaurus/resizeasaurus.js": "/resizeasaurus.js",
 	});
 
 	// Server
