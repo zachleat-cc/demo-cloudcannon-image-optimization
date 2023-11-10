@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@zachleat/browser-window": "^1.0.9",
-    "@zachleat/resizeasaurus": "^4.0.2"
+    "@zachleat/resizeasaurus": "^4.0.3"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
