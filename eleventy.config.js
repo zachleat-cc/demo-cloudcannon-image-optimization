@@ -4,7 +4,7 @@ const siteMountedConfig = require("./src/_includes/marketing-components/eleventy
 
 const IMAGE_OPTIONS = {
 	widths: [400, 800, 1600],
-	formats: ["avif", "webp", "svg", "jpeg"],
+	formats: ["avif", "webp", "jpeg", "svg"],
 	outputDir: "./_site/optimized/",
 	urlPath: "/optimized/",
 	// svgCompressionSize: "br",
