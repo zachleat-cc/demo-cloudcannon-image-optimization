@@ -1,6 +1,5 @@
 :root {
 	--theme-rhythm: 4em;
-	--demo-secondary-minor: #fff;
 }
 @media (prefers-color-scheme: dark) {
 	:root {
@@ -9,11 +8,6 @@
 }
 
 /* Overrides */
-.demo-main {
-	border-color: transparent;
-	padding: 0;
-}
-
 main img {
 	background-image: url(/demo-checkerboard.svg);
 	background-repeat: repeat;
